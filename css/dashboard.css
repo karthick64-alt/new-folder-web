@@ -1,0 +1,45 @@
+/* Dashboard Styles */
+.dashboard-container {
+    min-height: calc(100vh - 76px);
+    background: #f9fafb;
+}
+
+.sidebar {
+    min-height: calc(100vh - 76px);
+    position: sticky;
+    top: 76px;
+}
+
+.sidebar .nav-link {
+    color: #6c757d;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary-color);
+}
+
+.sidebar .nav-link.active {
+    background: var(--gradient);
+    color: white;
+}
+
+.user-profile img {
+    border: 3px solid var(--primary-color);
+}
+
+.stat-card {
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.tab-pane {
+    animation: fadeIn 0.3s ease-in;
+}
